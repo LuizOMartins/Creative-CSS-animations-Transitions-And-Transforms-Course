@@ -1,0 +1,23 @@
+body { text-align: center; }
+
+button {
+	height: 90px;
+	width: 290px;
+	font-size: 28px;
+	color: white;
+	border: none;
+	background-color: blue;
+	cursor: pointer;
+	text-align: center;
+	margin: 0 auto;
+	transition-property: background-color;
+	/* transition-property: A propriedade CSS especifica as propriedades CSS às quais 
+	um efeito de transição deve ser aplicado.transition-property; */
+	transition-duration: 500ms;
+	transition-delay: 2s;/*dellay de 2 segundos na transição */
+}
+
+
+button:hover {
+	background-color: green;
+}

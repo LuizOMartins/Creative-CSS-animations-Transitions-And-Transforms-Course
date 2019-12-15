@@ -1,0 +1,31 @@
+https://origamid.com/projetos/flexbox-guia-completo/
+/*
+display: flex;
+// Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
+*/
+
+
+/*
+
+justify-content: flex-start;
+// Alinha os itens ao início do container.
+justify-content: flex-end;
+// Alinha os itens ao final do container.
+justify-content: center;
+// Alinha os itens ao centro do container.
+justify-content: space-between;
+// Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.
+justify-content: space-around;
+// Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+*/
+
+
+/*flex-direction
+Define a direção dos flex itens. Por padrão ele é row (linha), por isso quando 
+o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
+*/
+
+/*O align-items alinha os flex itens de acordo com o eixo do container.*/
+
+/* align-content Alinha as linhas do container em relação ao eixo vertical. */

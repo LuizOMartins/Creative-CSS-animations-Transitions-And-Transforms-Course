@@ -1,0 +1,25 @@
+button {
+	height: 90px;
+	width: 290px;
+	font-size: 28px;
+	color: white;
+	border: none;
+	background-color: blue;
+	transition: all 3s ease-in 2s
+}
+
+button:hover {
+	background-color: green;
+	color: black;
+	border-radius: 50%;
+}
+
+/*
+
+ease - especifica um efeito de transição com um início lento, depois rápido e termina lentamente (este é o padrão)
+linear - especifica um efeito de transição com a mesma velocidade do início ao fim
+ease-in - especifica um efeito de transição com um início lento
+ease-out - especifica um efeito de transição com um final lento
+ease-in-out - especifica um efeito de transição com início e fim lentos
+cubic-bezier(n,n,n,n) - permite definir seus próprios valores em uma função cúbica-bezier
+*/
